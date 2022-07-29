@@ -181,8 +181,8 @@ Extract numerical data
 data = pd.read_csv("weatherHistory.csv")
 data.drop(['Daily Summary'],axis=1,inplace=True)
 
-Y = data.iloc[:,1] 
-X = data.iloc[:,3:] 
+Y = none, 
+X = none,
 
 plt.figure(figsize=(7,5))
 sns.pairplot(X)
